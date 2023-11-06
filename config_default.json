@@ -1,0 +1,20 @@
+{
+ 	"ENGINE": {
+ 		"user": "<USERNAME>",
+ 		"pwd": "<PASSWORD>",
+ 		"host": "<HOST>",
+ 		"db": "<DB>",
+ 		"echo": "True"
+	},
+	"WINDOW_SIZE": 10000,
+	"TABLE_NAME": "hicor_validation",
+	"PARTIAL_EVENT_TABLE_NAME": "hicor_noevent1_indexed",
+	"HEADERS": ["PID", "numerics", "codes", "to_event", "target"],
+	"OUTPUT_FILEPATH": "./claims_visits",
+	"DEFAULT_VALUES":{
+		"MEDIANINCOME":62015,
+		"DAYS_LASTED_PRECHEMO":9999,
+		"DAYS_LASTALLIP_PRECHEMO":9999
+	}
+
+}
